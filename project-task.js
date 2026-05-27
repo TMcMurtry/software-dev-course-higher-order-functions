@@ -50,7 +50,7 @@ function filterProducts(products, callback){
 const inStockProducts = filterProducts(products, (item) => item.inStock);
 
 console.log("Products in stock:", inStockProducts);
-console.log(`Products in stock: ${inStockProducts}`);
+//console.log(`Products in stock: ${inStockProducts}`);
 /*
 🔹 Task 2: Transform Product Names
 
